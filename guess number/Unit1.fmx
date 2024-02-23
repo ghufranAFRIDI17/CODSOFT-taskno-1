@@ -1,0 +1,184 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Guess Number'
+  ClientHeight = 392
+  ClientWidth = 408
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object down_range: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Position.X = 96.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+    object up_range: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Position.X = 80.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, FontColor]
+    end
+  end
+  object rangeL: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 96.000000000000000000
+    Position.Y = 39.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    Text = 'From:      To:'
+    TabOrder = 1
+  end
+  object range_L: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    Text = 'Range  :'
+    TabOrder = 2
+  end
+  object start: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Start'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    OnClick = startClick
+  end
+  object restart: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 297.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Restart'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    OnClick = restartClick
+  end
+  object hiden: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00090000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Position.X = 128.000000000000000000
+    Position.Y = 136.000000000000000000
+    Enabled = False
+    Size.Width = 129.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+  end
+  object input: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Position.X = 96.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+  end
+  object inputL: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    Text = 'Input   :'
+    TabOrder = 7
+  end
+  object output: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Position.X = 24.000000000000000000
+    Position.Y = 279.000000000000000000
+    Enabled = False
+    Size.Width = 353.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+  end
+  object enter: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 289.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 88.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'Enter'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    OnClick = enterClick
+  end
+  object turn: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 10
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Position.X = 296.000000000000000000
+    Position.Y = 152.000000000000000000
+    Enabled = False
+    Size.Width = 81.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+  end
+  object turnL: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 296.000000000000000000
+    Position.Y = 119.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.Trimming = None
+    Text = 'Turns :'
+    TabOrder = 11
+  end
+end

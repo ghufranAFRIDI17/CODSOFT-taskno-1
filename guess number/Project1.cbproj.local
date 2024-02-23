@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/02/17 09:14:02.004,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024/02/17 09:14:02.894,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024/02/17 09:55:30.083,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Guess_Number.fmx=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/02/17 09:55:30.083,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Guess_Number.cpp=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024/02/17 09:55:30.083,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Guess_Number.h=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2024/02/17 09:55:49.622,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\guess_numberPCH1.h=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024/02/17 10:01:06.979,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Guess_Number.fmx</Transaction>
+    <Transaction>2024/02/17 10:01:06.979,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Guess_Number.h</Transaction>
+    <Transaction>2024/02/17 10:01:06.979,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Guess_Number.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
